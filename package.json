@@ -1,0 +1,26 @@
+{
+  "name": "perfect-shuffles",
+  "version": "0.0.1",
+  "description": "comprehensive research into the relationship between perfect shuffles and prime numbers",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ts-node bruteForce.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerimpey/perfect-shuffles.git"
+  },
+  "author": "tylerimpey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerimpey/perfect-shuffles/issues"
+  },
+  "homepage": "https://github.com/tylerimpey/perfect-shuffles#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^18.0.0"
+  }
+}
