@@ -42,10 +42,11 @@ const createRange = (start: number, end: number): number[] => {
  * @title Performs a Brute Force Shuffle
  * @description performs a brute force shuffle of the range
  *
- * @param {number[]} range the range to shuffle
+ * @param {number} cards the number of cards to shuffle
  * @returns {number} the number of shuffles
  */
-const perfectShuffles = (range: number[]): number => {
+export const bruteForce = (cards: number): Array<number[]> => {
+  const range = createRange(1, cards);
   const output: any[] = [range];
 
   if (range.length % 2 !== 0) {
@@ -72,7 +73,5 @@ const perfectShuffles = (range: number[]): number => {
     JSON.stringify(output)
   );
 
-  return shuffles;
+  return output;
 };
-
-perfectShuffles(createRange(1, 10000));
