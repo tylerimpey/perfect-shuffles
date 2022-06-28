@@ -28,7 +28,13 @@ half the length of the deck, that the length of the deck plus one is a prime num
 that would mean since a deck of 4 cards inverts at 2 shuffles which is 4/2, then 4+1 is
 a prime number, wich 5 is.
 
-## The Search for an Analytical Solution
+There exist two avenues to take in determining whether a number is a prime number or not.
+
+1. speeding up the time it takes to brute force the answer;
+
+2. and, determining if there exists a direct, analytical solution.
+
+## Speeding Up the Brute Force
 
 Does there exist an analytical solution to the above conjecture? It should be noted that
 one does not need to trace the path of every card in the deck, rather if there exists an
@@ -52,3 +58,5 @@ Let's take a look at a larger example:
 You can see that the "card" in position 1 moves from `1 > 2`. The "card" in position 2
 moves from `2 > 4`. The "card" in position 3 moves from `3 > 6` and so on. But, how does
 this track the motion of the latter half of the deck?
+
+## The Search for an Analytical Solution
