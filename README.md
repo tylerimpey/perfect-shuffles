@@ -60,5 +60,3 @@ moves from `2 > 4`. The "card" in position 3 moves from `3 > 6` and so on. But, 
 this track the motion of the latter half of the deck?
 
 ## The Search for an Analytical Solution
-
-[🔨](https://test.com)
